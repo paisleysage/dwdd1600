@@ -1,6 +1,6 @@
 body {
-font-family: "Noto Sans", sans-serif;
-margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
 }
 
 /* header stuff*/
@@ -8,8 +8,9 @@ header {
     background-color: #e8b2a7;
     padding: 1rem 10px;
 }
+
 header span {
-    color:black;
+    color: white;
     font-size: 1.8rem;
     font-weight: 700;
 }
@@ -18,12 +19,14 @@ header span {
 nav {
     background-color: #fef3d4;
 }
+
 nav ul {
     margin: 0;
     padding: 0 10px;
     list-style-type: none;
     display: flex;
 }
+
 nav a {
     display: block;
     padding: .83rem 1rem;
@@ -32,12 +35,21 @@ nav a {
     color: #204f61;
     font-weight: 700;
 }
+
 nav li.active a {
     background-color: #204f61;
     color: #fef3d4;
 }
+
 nav li a:hover {
     color: white;
 }
 
 /* main stuff*/
+main h1 {
+    color: #e8b2a7;
+}
+main h2 {
+    color:#204f61;
+    margin-bottom: .2rem;
+}
