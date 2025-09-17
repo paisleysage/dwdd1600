@@ -38,18 +38,18 @@ nav a {
 
 nav li.active a {
     background-color: white;
-    color: #fef3d4;
+    color: #204f61;
 }
 
 nav li a:hover {
-    color: black;
+    color: #e8b2a7;
 }
 
 /* main stuff*/
 main h1 {
-    color: #e8b2a7;
+    color: #204f61;
 }
 main h2 {
-    color:#204f61;
+    color:#e8b2a7;
     margin-bottom: .2rem;
 }
