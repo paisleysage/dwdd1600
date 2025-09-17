@@ -37,12 +37,12 @@ nav a {
 }
 
 nav li.active a {
-    background-color: #204f61;
+    background-color: white;
     color: #fef3d4;
 }
 
 nav li a:hover {
-    color: white;
+    color: black;
 }
 
 /* main stuff*/
