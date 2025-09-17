@@ -46,6 +46,9 @@ nav li a:hover {
 }
 
 /* main stuff*/
+main {
+    padding: 1rem 10px;
+}
 main h1 {
     color: #204f61;
 }
@@ -72,7 +75,7 @@ main dl dt {
 }
 
 main dl dd {
-    color: 333;
+    color: #333;
     font-size: .9rem;
     margin-left: 20px;
 }
@@ -102,4 +105,22 @@ main address {
     border-radius: 10px;
     border: 1px solid #1e7e94;
     width: 200px;
+}
+main a {
+    color:#204f61;
+}
+main a:hover {
+    color: #cbe6d8;
+}
+
+/* footer stuff */
+footer {
+    background-color: #fef3d4;
+    text-align: center;
+    padding: 1rem;
+    color: #333;
+}
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
 }
