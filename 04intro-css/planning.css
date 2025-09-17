@@ -66,8 +66,6 @@ main p {
 
 main ol {
     padding: .5rem 30px;
-    background-color: #cbe6d8;
-    width: 400px;
 }
 main ol li {
     line-height: 125%;
