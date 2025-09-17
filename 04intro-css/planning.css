@@ -65,7 +65,12 @@ main p {
 
 main ol {
     padding: .5rem 30px;
-    background-color: #fef3d4;
+    background-color: #cbe6d8;
+}
+main ol li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
 }
 
 main dl dt {
