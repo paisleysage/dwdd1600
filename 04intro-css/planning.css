@@ -59,6 +59,10 @@ main h2 {
     color: #e8b2a7;
     margin-bottom: .2rem;
 }
+main h3 {
+    color: #1e7e94;
+    margin-bottom: .2rem;
+}
 
 main p {
     margin: 0;
