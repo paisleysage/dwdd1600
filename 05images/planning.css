@@ -140,6 +140,7 @@ figure.wrapped img {
 figure.wrapped figcaption {
     text-align: center;
     font-size: .75rem;
+    color: #1e7e94;
 }
 
 /* gallery stuff */
