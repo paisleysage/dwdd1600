@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Paisley Cooper">
+    <meta name="description" content="Everything you need to know to plan your perfect Disney World trip">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="planning.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <title>Park Planning: Your guide to the perfect Disney World trip</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Park Planning: Your guide to the perfect Disney World trip</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Basic Info</a></li>
+            <li><a href="hotels.html">Hotels & Transportation</a></li>
+            <li><a href="strategies.html">Park Strategies</a></li>
+            <li><a href="magic.html">Magic Kingdom</a></li>
+            <li><a href="epcot.html">EPCOT</a></li>
+            <li><a href="hollywood.html">Hollywood Studios</a></li>
+            <li><a href="animal.html">Animal Kingdom</a></li>
+            <li class="active"><a href="survey.html">Extra Help</a></li>
+            <li><a href="photos.html">Photos</a></li>
+        </ul>
+
+    </nav>
+    <!-- start the main content -->
+    <main>
+        <h1>Extra Help</h1>
+        <p>Feeling overwhelmed by the amount of information or just need some extra help? Fill out this form and I'll
+            contact you and give you some more personalized tips!</p>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Phone Number* <input type="tel" name="phone" required placeholder="801-000-0000"></label>
+                <label>Email <input type="email" name="email" placeholder="example@gmail.com"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Number of Times You've Visited Disney World</legend>
+                <label><input type="radio" name="method" value="none">0</label>
+                <label><input type="radio" name="method" value="one">1</label>
+                <label><input type="radio" name="method" value="few">2-3</label>
+                <label><input type="radio" name="method" value="lots">4+</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Park Priorities</legend>
+                <label><input type="checkbox" name="rides" value="chosen"> Rides</label>
+                <label><input type="checkbox" name="characters" value="chosen"> Characters</label>
+                <label><input type="checkbox" name="shows" value="chosen"> Shows</label>
+                <label><input type="checkbox" name="food" value="chosen"> Food</label>
+                </fieldset>
+
+                <fieldset>
+                <legend>Time of Year Planning to Go</legend>
+                    <select name="time">
+                        <option value="none">Please Select</option>
+                        <option value="winter">Winter: January-February</option>
+                        <option value="spring">Spring: March-May</option>
+                        <option value="summer">Summer: June-August</option>
+                        <option value="fall">Halloween: September-October</option>
+                        <option value="christmas">Christmas: November-December</option>
+                        <option value="not sure">Not Sure</option>
+                    </select>
+            </fieldset>
+
+    
+
+            <label>Questions
+                <textarea name="comments"></textarea>
+            </label>
+
+
+            <input type="submit" value="Send Survey">
+        </form>
+
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2025 &bull; Paisley Cooper &bull; Web Essentials </p>
+    </footer>
+
+
+</body>
+
+</html>
