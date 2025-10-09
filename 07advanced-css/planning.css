@@ -266,7 +266,7 @@ footer p {
     color: black;
 }
 
-header, nav, main, footer {
+main, footer {
 max-width: 64rem;
 margin: 0 auto;
 }
