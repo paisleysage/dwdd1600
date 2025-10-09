@@ -95,6 +95,7 @@ nav li a:hover {
 .hero {
     width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 main {
@@ -184,6 +185,7 @@ figure.wrapped {
 figure.wrapped img {
     width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 figure.wrapped figcaption {
