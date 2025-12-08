@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Paisley Cooper">
+    <meta name="description" content="Hassle free planning paired with the best value">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="budget.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Budget Vacations</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Budget Vacations</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Destinations</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- start the main content -->
+    <main>
+<h1>Contact Us</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>First Name* <input type="text" name="fname" required></label>
+                <label>Last Name* <input type="text" name="lname" required></label>
+                <label>Cell Number* <input type="tel" name="phone" required placeholder="801-000-0000"></label>
+                <label>Email* <input type="email" name="email" required placeholder="example@gmail.com"></label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Time of Year</legend>
+                <label><input type="radio" name="method" value="spring">Spring</label>
+                <label><input type="radio" name="method" value="summer">Summer</label>
+                <label><input type="radio" name="method" value="fall">Fall</label>
+                <label><input type="radio" name="method" value="winter">Winter</label>
+            </fieldset>
+
+            <fieldset>
+                
+
+                <legend>Destination</legend>
+                    <select name="time">
+                        <option value="none">Please Select</option>
+                        <option value="disneyworld">Disney World</option>
+                        <option value="disneyland">Disneyland</option>
+                        <option value="tokyo">Tokyo Disneyland</option>
+                        <option value="bergen">Bergen, Norway</option>
+                        <option value="bruges">Bruges, Belguim</option>
+                        <option value="oahu">Oahu, Hawaii</option>
+                        <option value="other">Other</option>
+                    </select>
+            </fieldset>
+
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+
+
+            <input type="submit" value="Send Delivery Request">
+        </form>
+
+
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2025 &bull; Paisley Cooper &bull; Web Essentials </p>
+    </footer>
+
+</body>
